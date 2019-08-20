@@ -1,0 +1,16 @@
+version: "3"
+services:
+  reviewboardweb:
+    build: .
+    environment:
+      MYSQL_ROOT_PASSWORD: yomogi46
+      MYSQL_PORT: 3306 # MySQLのデフォルトポート
+    volumes:
+      - ../html:/var/www/html
+      - ./root:/root
+      - ./workspace:/workspace
+    ports:
+      - 8080:80
+      - 8443:443
+      - 33306:3306
+    tty: true

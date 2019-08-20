@@ -1,0 +1,4 @@
+alias reviewboard='cd /var/www/html/reviewboard'
+alias log='cd /var/log/apache2/'
+alias doc='cd /var/www/html'
+

@@ -1,0 +1,12 @@
+html/reviewboard/vendor
+docker/root/.composer
+
+docker/root/dummy
+
+docker/root/\.viminfo
+
+docker/root/\.php_history
+
+docker/root/\.mysql_history
+
+docker/root/\.bash_history
